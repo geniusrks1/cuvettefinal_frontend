@@ -1,0 +1,131 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212; 
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .triangle {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 200px;
+    height: auto;
+  }
+  
+  .ellipse1 {
+    position: absolute;
+    bottom: 20%;
+    right: 23%;
+    width: 150px;
+    height: auto;
+  }
+  
+  .ellipse2 {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 100px;
+    height: auto;
+  }
+  .backArrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .formContainer {
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .inputGroup {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .inputGroup label {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .inputGroup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #121212;
+    color: white;
+  }
+  
+  .loginButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .orText {
+    color: white;
+    margin: 10px 0;
+  }
+  
+  .googleButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1px;
+    background-color: #007bff;
+    color: #444;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    
+  }
+  
+  .googleButton img {
+    margin-right: 20px;
+    height: auto;
+  }
+  
+  .registerText {
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .registerText span {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;;
+  }
+  .registerText a {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  

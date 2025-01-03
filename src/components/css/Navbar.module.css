@@ -1,0 +1,91 @@
+.navbar {
+    height: 60px;
+    background-color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-bottom: 1px solid #333;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .darkModeToggle {
+    padding: 8px 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .darkModeToggle:hover {
+    background-color: #0056b3;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdownToggle {
+    padding: 8px 12px;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .dropdownToggle:hover {
+    background-color: #444;
+  }
+  
+  .dropdownMenu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 4px;
+    display: none;
+    flex-direction: column;
+    min-width: 150px;
+  }
+  
+  .dropdownMenu button {
+    padding: 10px 15px;
+    background: none;
+    border: none;
+    color: #fff;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .dropdownMenu button:hover {
+    background-color: #444;
+  }
+  
+  .dropdown:hover .dropdownMenu {
+    display: flex;
+  }
+  
+  body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  body:not(.dark-mode) {
+    background-color: #f9f9f9;
+    color: #000;
+  }
+  
